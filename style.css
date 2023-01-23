@@ -1,0 +1,46 @@
+
+.main{
+    height:10em;
+    width:20em;
+    border:1px solid black;
+    border-radius: 25px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+     margin:25% 40px 0 40% ;
+     background-color: gray;
+
+
+}
+.timer{
+    height:1.9em;
+    width:18em;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+}
+.buttons button {
+    justify-content: space-around;
+    margin-top:14px;
+    margin-left:6px;
+}
+.click{
+    width:5.5em;
+    height:2.5em;
+    border-radius: 15px;
+    background-color:gray;
+    font-size: 1em;
+    color:white;
+    border:1px solid black;
+}
+.click:hover{
+    background-color:mistyrose;
+    color:gray;
+    transition: 1s ease-in-out;
+}
